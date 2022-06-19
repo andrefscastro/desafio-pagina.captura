@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/img/background.png");
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.principal {
+    width: 100%;
+    max-width: 500px;
+    margin: 80px auto;
+    top: 80px;
+}
+
+.principal .logo {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.principal h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.principal h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.principal h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.formulario {
+    display: block;
+    margin: 0 auto;
+}
+
+.formulario .informacao {
+    width: 100%;
+    height: 40px;
+    color: gray;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+.checkbox {
+    display: flex;
+    margin-top: 10px;
+}
+
+.formulario .inscricao {
+    font-size: 12px;
+    text-align: center;
+}
+
+.formulario .submit {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
